@@ -1,0 +1,26 @@
+{
+	"metadata": {
+		"schemaVersion": "v1"
+	},
+	"resources": {
+		"ML_MODEL_ASSOCIATION": [
+			{
+				"model": {
+					"cacheMaximumAge": "PT10S",
+					"enableWordCompletion": false,
+					"exclusive": false,
+					"intelligentTermDetection": false,
+					"matchAdvancedExpression": false,
+					"matchBasicExpression": false,
+					"maxRecommendations": 10,
+					"modelId": "{{ ML_MODEL.saq_qs_model_K803Ii }}",
+					"useAdvancedConfiguration": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.saq_multi_language_pipeline_lQsw5f }}"
+				},
+				"resourceName": "saq_qs_model_aOy6o1"
+			}
+		]
+	}
+}

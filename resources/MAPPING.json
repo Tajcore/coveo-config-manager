@@ -1,0 +1,2601 @@
+{
+	"metadata": {
+		"schemaVersion": "v1"
+	},
+	"resources": {
+		"MAPPING": [
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[author:crawler]"
+							],
+							"field": "{{ FIELD.author_B6VYHn }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_author_Rule:_%[author:crawler]_YauZUE"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[author:crawler]"
+							],
+							"field": "{{ FIELD.author_B6VYHn }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_author_Rule:_%[author:crawler]_nG5E4R"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[authorloginname]"
+							],
+							"field": "{{ FIELD.authorloginname_W8P3ng }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_authorloginname_Rule:_%[authorloginname]_f1Xnay"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[authorloginname]"
+							],
+							"field": "{{ FIELD.authorloginname_W8P3ng }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_authorloginname_Rule:_%[authorloginname]_mPaEEq"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[bcc]"
+							],
+							"field": "{{ FIELD.bcc_mcHTRN }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_bcc_Rule:_%[bcc]_NFYVU1"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[bcc]"
+							],
+							"field": "{{ FIELD.bcc_mcHTRN }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_bcc_Rule:_%[bcc]_R93G9r"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[cc]"
+							],
+							"field": "{{ FIELD.cc_5sYy1B }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_cc_Rule:_%[cc]_9QcoiL"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[cc]"
+							],
+							"field": "{{ FIELD.cc_5sYy1B }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_cc_Rule:_%[cc]_LB2MGT"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[clickableuri]"
+							],
+							"field": "{{ FIELD.clickableuri_0JPSW1 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_clickableuri_Rule:_%[clickableuri]_2wiXhK"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[clickableuri]"
+							],
+							"field": "{{ FIELD.clickableuri_0JPSW1 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_clickableuri_Rule:_%[clickableuri]_Q6QEum"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[company]"
+							],
+							"field": "{{ FIELD.company_lpl4YR }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_company_Rule:_%[company]_1yIDHv"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[company]"
+							],
+							"field": "{{ FIELD.company_lpl4YR }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_company_Rule:_%[company]_Y3722I"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[o]"
+							],
+							"field": "{{ FIELD.company_lpl4YR }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_company_Rule:_%[o]_Ee13Ei"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[o]"
+							],
+							"field": "{{ FIELD.company_lpl4YR }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_company_Rule:_%[o]_dWWcEK"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[connectortype]"
+							],
+							"field": "{{ FIELD.connectortype_lkuQKP }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_connectortype_Rule:_%[connectortype]_Pxc6hF"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[connectortype]"
+							],
+							"field": "{{ FIELD.connectortype_lkuQKP }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_connectortype_Rule:_%[connectortype]_nKTQLw"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[date]"
+							],
+							"field": "{{ FIELD.date_0h6w2G }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_date_Rule:_%[date]_u7aEqc"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[date]"
+							],
+							"field": "{{ FIELD.date_0h6w2G }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_date_Rule:_%[date]_zi0Pqs"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[datebucket]"
+							],
+							"field": "{{ FIELD.datebucket_vA42rR }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_datebucket_Rule:_%[datebucket]_O1FLmE"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[datebucket]"
+							],
+							"field": "{{ FIELD.datebucket_vA42rR }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_datebucket_Rule:_%[datebucket]_vNdLne"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[documenttype]"
+							],
+							"field": "{{ FIELD.documenttype_ByOMHK }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_documenttype_Rule:_%[documenttype]_FWlsWp"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[documenttype]"
+							],
+							"field": "{{ FIELD.documenttype_ByOMHK }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_documenttype_Rule:_%[documenttype]_ip6oDC"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[fax]"
+							],
+							"field": "{{ FIELD.fax_8BdtaD }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_fax_Rule:_%[fax]_WO5wfz"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[fax]"
+							],
+							"field": "{{ FIELD.fax_8BdtaD }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_fax_Rule:_%[fax]_rUsK0Y"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[fileextension]"
+							],
+							"field": "{{ FIELD.fileextension_RUMftR }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_fileextension_Rule:_%[fileextension]_6GBa0h"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[fileextension]"
+							],
+							"field": "{{ FIELD.fileextension_RUMftR }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_fileextension_Rule:_%[fileextension]_u526gc"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[filename]"
+							],
+							"field": "{{ FIELD.filename_J43Sra }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_filename_Rule:_%[filename]_Ak3qSX"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[filename]"
+							],
+							"field": "{{ FIELD.filename_J43Sra }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_filename_Rule:_%[filename]_hanX9o"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[filetype]"
+							],
+							"field": "{{ FIELD.filetype_DmnrSH }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_filetype_Rule:_%[filetype]_3uvKu4"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[filetype]"
+							],
+							"field": "{{ FIELD.filetype_DmnrSH }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_filetype_Rule:_%[filetype]_Y6iyfg"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[firstname]"
+							],
+							"field": "{{ FIELD.firstname_4NEWDG }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_firstname_Rule:_%[firstname]_XbcpSI"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[firstname]"
+							],
+							"field": "{{ FIELD.firstname_4NEWDG }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_firstname_Rule:_%[firstname]_YwMZX8"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[folders]"
+							],
+							"field": "{{ FIELD.folders_aES6Pv }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_folders_Rule:_%[folders]_XMJVcl"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[folders]"
+							],
+							"field": "{{ FIELD.folders_aES6Pv }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_folders_Rule:_%[folders]_vQVWzk"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[coveo_foldingchild]"
+							],
+							"field": "{{ FIELD.foldingchild_ztFg6g }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_foldingchild_Rule:_%[coveo_foldingchild]_OrRsy6"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[coveo_foldingchild]"
+							],
+							"field": "{{ FIELD.foldingchild_ztFg6g }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_foldingchild_Rule:_%[coveo_foldingchild]_YyhWex"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[coveo_foldingcollection]"
+							],
+							"field": "{{ FIELD.foldingcollection_9PxhMj }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_foldingcollection_Rule:_%[coveo_foldingcollection]_HWRwQI"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[coveo_foldingcollection]"
+							],
+							"field": "{{ FIELD.foldingcollection_9PxhMj }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_foldingcollection_Rule:_%[coveo_foldingcollection]_vVRRko"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[coveo_foldingparent]"
+							],
+							"field": "{{ FIELD.foldingparent_9PrDXh }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_foldingparent_Rule:_%[coveo_foldingparent]_EWKgSg"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[coveo_foldingparent]"
+							],
+							"field": "{{ FIELD.foldingparent_9PrDXh }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_foldingparent_Rule:_%[coveo_foldingparent]_HJ0iqd"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[from]"
+							],
+							"field": "{{ FIELD.from_VhkJgb }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_from_Rule:_%[from]_tftFfa"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[from]"
+							],
+							"field": "{{ FIELD.from_VhkJgb }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_from_Rule:_%[from]_tqXvIu"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[fullname]"
+							],
+							"field": "{{ FIELD.fullname_cHsWhk }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_fullname_Rule:_%[fullname]_PyF9zk"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[fullname]"
+							],
+							"field": "{{ FIELD.fullname_cHsWhk }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_fullname_Rule:_%[fullname]_oX26Ng"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[homephone]"
+							],
+							"field": "{{ FIELD.homephone_aZ0SdT }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_homephone_Rule:_%[homephone]_PC5KCW"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[homephone]"
+							],
+							"field": "{{ FIELD.homephone_aZ0SdT }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_homephone_Rule:_%[homephone]_sM6P14"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[language]"
+							],
+							"field": "{{ FIELD.language_hZ8M56 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_language_Rule:_%[language]_2Wm4XV"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[language]"
+							],
+							"field": "{{ FIELD.language_hZ8M56 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_language_Rule:_%[language]_c2KSyd"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[lastname]"
+							],
+							"field": "{{ FIELD.lastname_mZNgCx }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_lastname_Rule:_%[lastname]_cM8MUm"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[lastname]"
+							],
+							"field": "{{ FIELD.lastname_mZNgCx }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_lastname_Rule:_%[lastname]_jmj8CD"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[location]"
+							],
+							"field": "{{ FIELD.location_LZbmkA }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_location_Rule:_%[location]_glVZQa"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[location]"
+							],
+							"field": "{{ FIELD.location_LZbmkA }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_location_Rule:_%[location]_kMh81N"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[manager]"
+							],
+							"field": "{{ FIELD.manager_OBJmKq }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_manager_Rule:_%[manager]_6YaehJ"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[manager]"
+							],
+							"field": "{{ FIELD.manager_OBJmKq }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_manager_Rule:_%[manager]_xXqq6R"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[middlename]"
+							],
+							"field": "{{ FIELD.middlename_QOXhHY }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_middlename_Rule:_%[middlename]_AIkDKn"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[middlename]"
+							],
+							"field": "{{ FIELD.middlename_QOXhHY }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_middlename_Rule:_%[middlename]_ExcL2b"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[cellphone]"
+							],
+							"field": "{{ FIELD.mobilephone_1t4mVO }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_mobilephone_Rule:_%[cellphone]_FwMKFw"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[cellphone]"
+							],
+							"field": "{{ FIELD.mobilephone_1t4mVO }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_mobilephone_Rule:_%[cellphone]_ZiKFcu"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[mobile]"
+							],
+							"field": "{{ FIELD.mobilephone_1t4mVO }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_mobilephone_Rule:_%[mobile]_Mqy14j"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[mobile]"
+							],
+							"field": "{{ FIELD.mobilephone_1t4mVO }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_mobilephone_Rule:_%[mobile]_Rge84q"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[mobilephone]"
+							],
+							"field": "{{ FIELD.mobilephone_1t4mVO }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_mobilephone_Rule:_%[mobilephone]_TndVKr"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[mobilephone]"
+							],
+							"field": "{{ FIELD.mobilephone_1t4mVO }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_mobilephone_Rule:_%[mobilephone]_vgWSMg"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[mobileuri]"
+							],
+							"field": "{{ FIELD.mobileuri_WBfwuF }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_mobileuri_Rule:_%[mobileuri]_VlCpvi"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[mobileuri]"
+							],
+							"field": "{{ FIELD.mobileuri_WBfwuF }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_mobileuri_Rule:_%[mobileuri]_y76euk"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[month]"
+							],
+							"field": "{{ FIELD.month_D7SSEm }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_month_Rule:_%[month]_2SLoP8"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[month]"
+							],
+							"field": "{{ FIELD.month_D7SSEm }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_month_Rule:_%[month]_NmG8iG"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[office]"
+							],
+							"field": "{{ FIELD.office_azcew4 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_office_Rule:_%[office]_RijAYW"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[office]"
+							],
+							"field": "{{ FIELD.office_azcew4 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_office_Rule:_%[office]_RkxXLm"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[parents]"
+							],
+							"field": "{{ FIELD.parents_PMizj2 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_parents_Rule:_%[parents]_8LJkB3"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[parents]"
+							],
+							"field": "{{ FIELD.parents_PMizj2 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_parents_Rule:_%[parents]_DWDwYG"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[permanentid]"
+							],
+							"field": "{{ FIELD.permanentid_Y8C4iG }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_permanentid_Rule:_%[permanentid]_VFXMHZ"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[permanentid]"
+							],
+							"field": "{{ FIELD.permanentid_Y8C4iG }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_permanentid_Rule:_%[permanentid]_W2dlpP"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[printableuri]"
+							],
+							"field": "{{ FIELD.printableuri_fCM0mB }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_printableuri_Rule:_%[printableuri]_TUsDeJ"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[printableuri]"
+							],
+							"field": "{{ FIELD.printableuri_fCM0mB }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_printableuri_Rule:_%[printableuri]_d6wU1d"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_alcohol_degree]"
+							],
+							"field": "{{ FIELD.product_details_alcohol_degree_vZ5I0i }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_details_alcohol_degree_Rule:_%[product_details_alcohol_degree]_7OdJvf"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_alcohol_degree]"
+							],
+							"field": "{{ FIELD.product_details_alcohol_degree_vZ5I0i }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_details_alcohol_degree_Rule:_%[product_details_alcohol_degree]_NsAXTs"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_alcohol_degree_unit]"
+							],
+							"field": "{{ FIELD.product_details_alcohol_degree_unit_APvurX }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_details_alcohol_degree_unit_Rule:_%[product_details_alcohol_degree_unit]_6WXW2J"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_alcohol_degree_unit]"
+							],
+							"field": "{{ FIELD.product_details_alcohol_degree_unit_APvurX }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_details_alcohol_degree_unit_Rule:_%[product_details_alcohol_degree_unit]_9SLt8z"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_color]"
+							],
+							"field": "{{ FIELD.product_details_color_bc3SVt }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_details_color_Rule:_%[product_details_color]_5IwI7E"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_color]"
+							],
+							"field": "{{ FIELD.product_details_color_bc3SVt }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_details_color_Rule:_%[product_details_color]_TXEk2p"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_country]"
+							],
+							"field": "{{ FIELD.product_details_country_B1A0Ns }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_details_country_Rule:_%[product_details_country]_InVWZT"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_country]"
+							],
+							"field": "{{ FIELD.product_details_country_B1A0Ns }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_details_country_Rule:_%[product_details_country]_vdJw8F"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_grape_variety]"
+							],
+							"field": "{{ FIELD.product_details_grape_variety_3lLGXS }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_details_grape_variety_Rule:_%[product_details_grape_variety]_EZFGrT"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_grape_variety]"
+							],
+							"field": "{{ FIELD.product_details_grape_variety_3lLGXS }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_details_grape_variety_Rule:_%[product_details_grape_variety]_hhupjX"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_producer]"
+							],
+							"field": "{{ FIELD.product_details_producer_vIT3MS }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_details_producer_Rule:_%[product_details_producer]_9g1zJg"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_producer]"
+							],
+							"field": "{{ FIELD.product_details_producer_vIT3MS }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_details_producer_Rule:_%[product_details_producer]_K0XOf2"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_producer_url]"
+							],
+							"field": "{{ FIELD.product_details_producer_url_sctBFx }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_details_producer_url_Rule:_%[product_details_producer_url]_DE3xv8"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_producer_url]"
+							],
+							"field": "{{ FIELD.product_details_producer_url_sctBFx }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_details_producer_url_Rule:_%[product_details_producer_url]_mSBA59"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_promoting_agent]"
+							],
+							"field": "{{ FIELD.product_details_promoting_agent_5OHc3u }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_details_promoting_agent_Rule:_%[product_details_promoting_agent]_2MHh1P"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_promoting_agent]"
+							],
+							"field": "{{ FIELD.product_details_promoting_agent_5OHc3u }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_details_promoting_agent_Rule:_%[product_details_promoting_agent]_JWfyUZ"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_promoting_agent_url]"
+							],
+							"field": "{{ FIELD.product_details_promoting_agent_url_C028T3 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_details_promoting_agent_url_Rule:_%[product_details_promoting_agent_url]_AqNHyt"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_promoting_agent_url]"
+							],
+							"field": "{{ FIELD.product_details_promoting_agent_url_C028T3 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_details_promoting_agent_url_Rule:_%[product_details_promoting_agent_url]_DvllmG"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_region]"
+							],
+							"field": "{{ FIELD.product_details_region_Alk4J0 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_details_region_Rule:_%[product_details_region]_j1RV0p"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_region]"
+							],
+							"field": "{{ FIELD.product_details_region_Alk4J0 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_details_region_Rule:_%[product_details_region]_y8IFPi"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_regulated_designation]"
+							],
+							"field": "{{ FIELD.product_details_regulated_designation_93frbc }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_details_regulated_designation_Rule:_%[product_details_regulated_designation]_0vS4Ro"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_regulated_designation]"
+							],
+							"field": "{{ FIELD.product_details_regulated_designation_93frbc }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_details_regulated_designation_Rule:_%[product_details_regulated_designation]_AHPbDa"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_saq_code]"
+							],
+							"field": "{{ FIELD.product_details_saq_code_8W0Eqa }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_details_saq_code_Rule:_%[product_details_saq_code]_5JfRdp"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_saq_code]"
+							],
+							"field": "{{ FIELD.product_details_saq_code_8W0Eqa }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_details_saq_code_Rule:_%[product_details_saq_code]_JdJUSq"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_size]"
+							],
+							"field": "{{ FIELD.product_details_size_gB7YYd }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_details_size_Rule:_%[product_details_size]_69ZmRC"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_size]"
+							],
+							"field": "{{ FIELD.product_details_size_gB7YYd }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_details_size_Rule:_%[product_details_size]_LDYmGW"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_size_unit]"
+							],
+							"field": "{{ FIELD.product_details_size_unit_GWcDv7 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_details_size_unit_Rule:_%[product_details_size_unit]_F81jeV"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_size_unit]"
+							],
+							"field": "{{ FIELD.product_details_size_unit_GWcDv7 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_details_size_unit_Rule:_%[product_details_size_unit]_XzlngB"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_sugar_content]"
+							],
+							"field": "{{ FIELD.product_details_sugar_content_J6szAt }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_details_sugar_content_Rule:_%[product_details_sugar_content]_lcHHL4"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_sugar_content]"
+							],
+							"field": "{{ FIELD.product_details_sugar_content_J6szAt }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_details_sugar_content_Rule:_%[product_details_sugar_content]_x0CPeC"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_sugar_content_unit]"
+							],
+							"field": "{{ FIELD.product_details_sugar_content_unit_F94egv }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_details_sugar_content_unit_Rule:_%[product_details_sugar_content_unit]_9bPDBh"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_sugar_content_unit]"
+							],
+							"field": "{{ FIELD.product_details_sugar_content_unit_F94egv }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_details_sugar_content_unit_Rule:_%[product_details_sugar_content_unit]_WzRatc"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_upc_code]"
+							],
+							"field": "{{ FIELD.product_details_upc_code_LSVRyS }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_details_upc_code_Rule:_%[product_details_upc_code]_HEcR5i"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_details_upc_code]"
+							],
+							"field": "{{ FIELD.product_details_upc_code_LSVRyS }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_details_upc_code_Rule:_%[product_details_upc_code]_bzb7i7"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_image_url]"
+							],
+							"field": "{{ FIELD.product_image_url_zToMgw }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_image_url_Rule:_%[product_image_url]_G2kw2W"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_image_url]"
+							],
+							"field": "{{ FIELD.product_image_url_zToMgw }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_image_url_Rule:_%[product_image_url]_cvAuY1"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_is_instore]"
+							],
+							"field": "{{ FIELD.product_is_instore_AWtlVF }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_is_instore_Rule:_%[product_is_instore]_cosmvV"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_is_instore]"
+							],
+							"field": "{{ FIELD.product_is_instore_AWtlVF }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_is_instore_Rule:_%[product_is_instore]_etwf7n"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_is_lottery]"
+							],
+							"field": "{{ FIELD.product_is_lottery_ffAbw0 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_is_lottery_Rule:_%[product_is_lottery]_5UXnF2"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_is_lottery]"
+							],
+							"field": "{{ FIELD.product_is_lottery_ffAbw0 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_is_lottery_Rule:_%[product_is_lottery]_zuTfkq"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_is_online]"
+							],
+							"field": "{{ FIELD.product_is_online_Cw5FFI }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_is_online_Rule:_%[product_is_online]_ZWRW8t"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_is_online]"
+							],
+							"field": "{{ FIELD.product_is_online_Cw5FFI }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_is_online_Rule:_%[product_is_online]_uBlZYS"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_is_outofstock]"
+							],
+							"field": "{{ FIELD.product_is_outofstock_G3uQbg }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_is_outofstock_Rule:_%[product_is_outofstock]_O8eoEC"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_is_outofstock]"
+							],
+							"field": "{{ FIELD.product_is_outofstock_G3uQbg }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_is_outofstock_Rule:_%[product_is_outofstock]_nhYZRS"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_name]"
+							],
+							"field": "{{ FIELD.product_name_iRxlzX }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_name_Rule:_%[product_name]_0TBd2H"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_name]"
+							],
+							"field": "{{ FIELD.product_name_iRxlzX }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_name_Rule:_%[product_name]_tuc7JE"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_online_availability]"
+							],
+							"field": "{{ FIELD.product_online_availability_9pO407 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_online_availability_Rule:_%[product_online_availability]_Tqb5q2"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_online_availability]"
+							],
+							"field": "{{ FIELD.product_online_availability_9pO407 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_online_availability_Rule:_%[product_online_availability]_uC2wVp"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_price]"
+							],
+							"field": "{{ FIELD.product_price_blAhRu }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_price_Rule:_%[product_price]_3OsLol"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_price]"
+							],
+							"field": "{{ FIELD.product_price_blAhRu }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_price_Rule:_%[product_price]_CXcjxK"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_price_unit]"
+							],
+							"field": "{{ FIELD.product_price_unit_wM1YDo }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_price_unit_Rule:_%[product_price_unit]_3RqJpD"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_price_unit]"
+							],
+							"field": "{{ FIELD.product_price_unit_wM1YDo }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_price_unit_Rule:_%[product_price_unit]_WB2J9b"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_rating]"
+							],
+							"field": "{{ FIELD.product_rating_e2O6vB }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_rating_Rule:_%[product_rating]_994Ls6"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_rating]"
+							],
+							"field": "{{ FIELD.product_rating_e2O6vB }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_rating_Rule:_%[product_rating]_olvSk0"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_rating_stars]"
+							],
+							"field": "{{ FIELD.product_rating_stars_2oKqNy }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_rating_stars_Rule:_%[product_rating_stars]_VSItHM"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_rating_stars]"
+							],
+							"field": "{{ FIELD.product_rating_stars_2oKqNy }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_rating_stars_Rule:_%[product_rating_stars]_eOjNFK"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_tasting_aromas]"
+							],
+							"field": "{{ FIELD.product_tasting_aromas_jSK5dq }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_product_tasting_aromas_Rule:_%[product_tasting_aromas]_1GseU8"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[product_tasting_aromas]"
+							],
+							"field": "{{ FIELD.product_tasting_aromas_jSK5dq }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_product_tasting_aromas_Rule:_%[product_tasting_aromas]_ABWBKn"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[coveo_externalurl]"
+							],
+							"field": "{{ FIELD.relatedlink_jOIkgy }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_relatedlink_Rule:_%[coveo_externalurl]_LUq6wI"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[coveo_externalurl]"
+							],
+							"field": "{{ FIELD.relatedlink_jOIkgy }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_relatedlink_Rule:_%[coveo_externalurl]_PX8Y3p"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[site]"
+							],
+							"field": "{{ FIELD.site_3fzyGK }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_site_Rule:_%[site]_Q8pxSW"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[site]"
+							],
+							"field": "{{ FIELD.site_3fzyGK }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_site_Rule:_%[site]_WFw6ic"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[changefreq]"
+							],
+							"field": "{{ FIELD.sitemapchangefrequency_gcsC3S }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_sitemapchangefrequency_Rule:_%[changefreq]_F2qMq0"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[changefreq]"
+							],
+							"field": "{{ FIELD.sitemapchangefrequency_gcsC3S }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_sitemapchangefrequency_Rule:_%[changefreq]_MPj45y"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[lastmod]"
+							],
+							"field": "{{ FIELD.sitemaplastmodified_OM4tZ4 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_sitemaplastmodified_Rule:_%[lastmod]_1axt74"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[lastmod]"
+							],
+							"field": "{{ FIELD.sitemaplastmodified_OM4tZ4 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_sitemaplastmodified_Rule:_%[lastmod]_ncwIjH"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[coveo_parentsitemapurl]"
+							],
+							"field": "{{ FIELD.sitemapparenturl_wMPSwb }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_sitemapparenturl_Rule:_%[coveo_parentsitemapurl]_UADsT9"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[coveo_parentsitemapurl]"
+							],
+							"field": "{{ FIELD.sitemapparenturl_wMPSwb }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_sitemapparenturl_Rule:_%[coveo_parentsitemapurl]_XN4Ad9"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[priority]"
+							],
+							"field": "{{ FIELD.sitemappriority_SklZQ6 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_sitemappriority_Rule:_%[priority]_kptQWE"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[priority]"
+							],
+							"field": "{{ FIELD.sitemappriority_SklZQ6 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_sitemappriority_Rule:_%[priority]_rG4btO"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[size]"
+							],
+							"field": "{{ FIELD.size_G5fePh }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_size_Rule:_%[size]_4hAM7n"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[size]"
+							],
+							"field": "{{ FIELD.size_G5fePh }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_size_Rule:_%[size]_je5D8K"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[sourcetype]"
+							],
+							"field": "{{ FIELD.sourcetype_K9mVJt }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_sourcetype_Rule:_%[sourcetype]_JRCWkS"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[sourcetype]"
+							],
+							"field": "{{ FIELD.sourcetype_K9mVJt }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_sourcetype_Rule:_%[sourcetype]_scnkmo"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[subject]"
+							],
+							"field": "{{ FIELD.subject_9HWpGv }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_subject_Rule:_%[subject]_Ec22vp"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[subject]"
+							],
+							"field": "{{ FIELD.subject_9HWpGv }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_subject_Rule:_%[subject]_kHXRek"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[title:crawler]"
+							],
+							"field": "{{ FIELD.title_06io30 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_title_Rule:_%[title:crawler]_YgPLmo"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[title:crawler]"
+							],
+							"field": "{{ FIELD.title_06io30 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_title_Rule:_%[title:crawler]_fHepBr"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[to]"
+							],
+							"field": "{{ FIELD.to_cC5u5j }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_to_Rule:_%[to]_OaMDDu"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[to]"
+							],
+							"field": "{{ FIELD.to_cC5u5j }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_to_Rule:_%[to]_hU2lTU"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[workemail]"
+							],
+							"field": "{{ FIELD.workemail_91urgs }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_workemail_Rule:_%[workemail]_7LHqRt"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[workemail]"
+							],
+							"field": "{{ FIELD.workemail_91urgs }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_workemail_Rule:_%[workemail]_TCkhNW"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[workphone]"
+							],
+							"field": "{{ FIELD.workphone_nJjan2 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_workphone_Rule:_%[workphone]_GGamzf"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[workphone]"
+							],
+							"field": "{{ FIELD.workphone_nJjan2 }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_workphone_Rule:_%[workphone]_qtQmLC"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[worktitle]"
+							],
+							"field": "{{ FIELD.worktitle_XQrrtJ }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_worktitle_Rule:_%[worktitle]_9utTla"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[worktitle]"
+							],
+							"field": "{{ FIELD.worktitle_XQrrtJ }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_worktitle_Rule:_%[worktitle]_IdvDJK"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[year]"
+							],
+							"field": "{{ FIELD.year_uqivpl }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_en_gDtFo7 }}"
+				},
+				"resourceName": "Field:_year_Rule:_%[year]_MpQwoP"
+			},
+			{
+				"model": {
+					"rules": [
+						{
+							"content": [
+								"%[year]"
+							],
+							"field": "{{ FIELD.year_uqivpl }}"
+						}
+					]
+				},
+				"parents": {
+					"sourceId": "{{ SOURCE.saq_products_fr_P7tMK9 }}"
+				},
+				"resourceName": "Field:_year_Rule:_%[year]_pEewYl"
+			}
+		]
+	}
+}

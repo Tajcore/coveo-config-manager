@@ -1,0 +1,35 @@
+{
+	"metadata": {
+		"schemaVersion": "v1"
+	},
+	"resources": {
+		"RESULT_RANKING": [
+			{
+				"model": {
+					"resultRanking": {
+						"defaultMatchOperator": {
+							"kind": "is"
+						},
+						"description": "Promote Jamaican Products",
+						"enabled": true,
+						"includeInFacets": true,
+						"kind": "featured_result",
+						"matchAdvancedQuery": true,
+						"matchQuery": false,
+						"name": "@product_details_country==\"Jamaica\"",
+						"predicates": [],
+						"targets": [
+							{
+								"queryExpression": "@product_details_country==\"Jamaica\""
+							}
+						]
+					}
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.saq_multi_language_pipeline_lQsw5f }}"
+				},
+				"resourceName": "dJW8qJ"
+			}
+		]
+	}
+}

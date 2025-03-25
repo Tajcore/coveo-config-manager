@@ -1,0 +1,30 @@
+{
+	"metadata": {
+		"schemaVersion": "v1"
+	},
+	"resources": {
+		"QUERY_PIPELINE": [
+			{
+				"model": {
+					"condition": {},
+					"isDefault": false,
+					"name": "default",
+					"splitTestEnabled": false
+				},
+				"parents": {},
+				"resourceName": "default_yB3mHS"
+			},
+			{
+				"model": {
+					"condition": {},
+					"description": "",
+					"isDefault": true,
+					"name": "saq_multi_language_pipeline",
+					"splitTestEnabled": false
+				},
+				"parents": {},
+				"resourceName": "saq_multi_language_pipeline_lQsw5f"
+			}
+		]
+	}
+}

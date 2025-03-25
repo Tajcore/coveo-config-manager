@@ -1,0 +1,23 @@
+{
+	"metadata": {
+		"schemaVersion": "v1"
+	},
+	"resources": {
+		"QUERY_PIPELINE_CONDITION": [
+			{
+				"model": {
+					"definition": "when $searchHub is \"EnglishPortalSearch \""
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_EnglishPortalSearch__kRdjQg"
+			},
+			{
+				"model": {
+					"definition": "when $searchHub is \"FrenchPortalSearch \""
+				},
+				"parents": {},
+				"resourceName": "when_searchHub_is_FrenchPortalSearch__U3IxK1"
+			}
+		]
+	}
+}

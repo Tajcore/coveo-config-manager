@@ -1,0 +1,27 @@
+{
+	"metadata": {
+		"schemaVersion": "v1"
+	},
+	"resources": {
+		"ML_MODEL": [
+			{
+				"model": {
+					"commandLineParameters": [],
+					"engineId": "querysuggest",
+					"exportOffset": "PT0S",
+					"exportPeriod": "P1M",
+					"extraConfig": {
+						"testConfiguration": true
+					},
+					"intervalTime": 1,
+					"intervalUnit": "WEEK",
+					"modelActivenessState": "ACTIVE",
+					"modelDisplayName": "saq_qs_model",
+					"startTime": 1741788900000
+				},
+				"parents": {},
+				"resourceName": "saq_qs_model_K803Ii"
+			}
+		]
+	}
+}

@@ -1,0 +1,99 @@
+{
+	"metadata": {
+		"schemaVersion": "v1"
+	},
+	"resources": {
+		"FILTER": [
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {
+						"definition": "when $searchHub is \"EnglishPortalSearch \"",
+						"detailed": {
+							"condition": {
+								"left": {
+									"object": "searchHub"
+								},
+								"operator": "is",
+								"right": "EnglishPortalSearch "
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_EnglishPortalSearch__kRdjQg }}"
+					},
+					"definition": "filter q `@language==English`",
+					"description": "",
+					"detailed": {
+						"expressions": [
+							"@language==English"
+						]
+					},
+					"feature": "filter",
+					"parent": {
+						"definition": "when $searchHub is \"EnglishPortalSearch \"",
+						"detailed": {
+							"condition": {
+								"left": {
+									"object": "searchHub"
+								},
+								"operator": "is",
+								"right": "EnglishPortalSearch "
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_EnglishPortalSearch__kRdjQg }}"
+					},
+					"position": 1,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.saq_multi_language_pipeline_lQsw5f }}"
+				},
+				"resourceName": "filter_q_`@language==English`_bh26Jz"
+			},
+			{
+				"model": {
+					"childrenCount": 0,
+					"condition": {
+						"definition": "when $searchHub is \"FrenchPortalSearch \"",
+						"detailed": {
+							"condition": {
+								"left": {
+									"object": "searchHub"
+								},
+								"operator": "is",
+								"right": "FrenchPortalSearch "
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_FrenchPortalSearch__U3IxK1 }}"
+					},
+					"definition": "filter q `@language==French`",
+					"description": "",
+					"detailed": {
+						"expressions": [
+							"@language==French"
+						]
+					},
+					"feature": "filter",
+					"parent": {
+						"definition": "when $searchHub is \"FrenchPortalSearch \"",
+						"detailed": {
+							"condition": {
+								"left": {
+									"object": "searchHub"
+								},
+								"operator": "is",
+								"right": "FrenchPortalSearch "
+							}
+						},
+						"id": "{{ QUERY_PIPELINE_CONDITION.when_searchHub_is_FrenchPortalSearch__U3IxK1 }}"
+					},
+					"position": 2,
+					"ready": false
+				},
+				"parents": {
+					"queryPipelineId": "{{ QUERY_PIPELINE.saq_multi_language_pipeline_lQsw5f }}"
+				},
+				"resourceName": "filter_q_`@language==French`_ABD3bO"
+			}
+		]
+	}
+}
