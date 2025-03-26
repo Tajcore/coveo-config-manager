@@ -37,3 +37,6 @@ jobs:
 
       - name: Run push_config.py
         run: python push_config.py
+
+      - name: List node_modules/.bin
+        run: ls -la node_modules/.bin
