@@ -35,6 +35,9 @@ jobs:
           echo "TARGET_ORG_ID: $TARGET_ORG_ID"
           echo "TARGET_API_KEY: $TARGET_API_KEY"
 
+      - name: Add node_modules/.bin to PATH
+        run: echo "::add-path::$(pwd)/node_modules/.bin"
+
       - name: Run push_config.py
         run: python push_config.py
 

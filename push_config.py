@@ -62,7 +62,7 @@ def main():
         print("Please set TARGET_ORG_ID and TARGET_API_KEY in your .env file.")
         sys.exit(1)
 
-    cli_cmd = os.path.join("node_modules", ".bin", "coveo")
+    cli_cmd = os.path.join("coveo")
 
     auth_cmd = [cli_cmd, "auth:token", "-t", target_api_key]
     print("=== Authenticating to target environment ===")
