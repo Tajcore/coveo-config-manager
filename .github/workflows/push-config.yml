@@ -25,8 +25,8 @@ jobs:
           pip install -r requirements.txt
       - name: Debug environment variables
         run: |
-          echo "TARGET_ORG_ID: ${{ env.TARGET_ORG_ID }}"
-          echo "TARGET_API_KEY: ${{ env.TARGET_API_KEY }}"
+          echo "TARGET_ORG_ID: ${{ vars.TARGET_ORG_ID }}"
+          echo "TARGET_API_KEY: ${{ vars.TARGET_API_KEY }}"
 
       - name: Run push_config.py
         run: python push_config.py
