@@ -5,11 +5,18 @@ on:
     branches:
       - qa
       - prod
-
+  workflow_call:
+    inputs:
+      environment:
+        required: true
+        type: string
+        default: "qa"
+        
 jobs:
   push-config:
     runs-on: ubuntu-latest
-
+    environment:
+      name: ${{ inputs.environment }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -28,7 +35,7 @@ jobs:
       - name: Set environment variables
         run: |
           echo "TARGET_ORG_ID=${{ vars.TARGET_ORG_ID }}" >> $GITHUB_ENV
-          echo "TARGET_API_KEY=${{ vars.TARGET_API_KEY }}" >> $GITHUB_ENV
+          echo "TARGET_API_KEY=${{ secrets.TARGET_API_KEY }}" >> $GITHUB_ENV
 
       - name: Debug environment variables
         run: |
