@@ -5,18 +5,12 @@ on:
     branches:
       - qa
       - prod
-  workflow_call:
-    inputs:
-      environment:
-        required: true
-        type: string
-        default: "qa"
-        
+       
 jobs:
   push-config:
     runs-on: ubuntu-latest
     environment:
-      name: ${{ inputs.environment }}
+      name: ${{ github.ref_name == 'prod' && 'prod' || 'qa' }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
