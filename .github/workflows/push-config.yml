@@ -25,15 +25,9 @@ jobs:
         pip install -r requirements.txt
 
     - name: Set environment variables
-      id: set-env
       run: |
-        if [ "${{ github.ref }}" == "refs/heads/qa" ]; then
-          echo "TARGET_ORG_ID=${{ secrets.QA_TARGET_ORG_ID }}" >> $GITHUB_ENV
-          echo "TARGET_API_KEY=${{ secrets.QA_TARGET_API_KEY }}" >> $GITHUB_ENV
-        elif [ "${{ github.ref }}" == "refs/heads/prod" ]; then
-          echo "TARGET_ORG_ID=${{ secrets.PROD_TARGET_ORG_ID }}" >> $GITHUB_ENV
-          echo "TARGET_API_KEY=${{ secrets.PROD_TARGET_API_KEY }}" >> $GITHUB_ENV
-        fi
+        echo "TARGET_ORG_ID=${{ secrets.TARGET_ORG_ID }}" >> $GITHUB_ENV
+        echo "TARGET_API_KEY=${{ secrets.TARGET_API_KEY }}" >> $GITHUB_ENV
 
     - name: Run push_config.py
       run: python push_config.py
