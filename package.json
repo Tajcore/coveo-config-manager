@@ -6,7 +6,7 @@
   "scripts": {
     "install-cli": "npm install",
     "pull": "python pull_config.py",
-    "push": "python push_config.py",
+    "push": "python push_config.py"
   },
   "author": "Your Name",
   "license": "MIT",
