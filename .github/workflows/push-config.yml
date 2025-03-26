@@ -36,7 +36,7 @@ jobs:
           echo "TARGET_API_KEY: $TARGET_API_KEY"
 
       - name: Add node_modules/.bin to PATH
-        run: echo "::add-path::$(pwd)/node_modules/.bin"
+        run: echo "$(pwd)/node_modules/.bin" >> $GITHUB_PATH
 
       - name: Run push_config.py
         run: python push_config.py
