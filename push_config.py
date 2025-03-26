@@ -148,7 +148,7 @@ def main():
     push_cmd = [
         cli_cmd_path,
         "org:resources:push",
-        "--previewLevel", "light"
+        "--previewLevel", "none"
     ]
     logging.info("=== Pushing configuration to Target ===")
     push_timeout = 500 # Allow more time for push operation
