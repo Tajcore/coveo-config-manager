@@ -148,12 +148,13 @@ def main():
     push_cmd = [
         cli_cmd_path,
         "org:resources:push",
+        "--previewLevel", "light"
     ]
     logging.info("=== Pushing configuration to Target ===")
-    push_timeout = 300 # Allow more time for push operation
+    push_timeout = 500 # Allow more time for push operation
     try:
         # Provide 'y' followed by newline to confirm the push
-        run_command(push_cmd, input_data="y\n", timeout_seconds=push_timeout)
+        run_command(push_cmd, input_data="y", timeout_seconds=push_timeout)
         logging.info("=== Push command finished successfully ===")
     except SystemExit as e:
         logging.error("Push step failed.")
