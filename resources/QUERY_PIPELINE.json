@@ -7,7 +7,7 @@
 			{
 				"model": {
 					"condition": {},
-					"isDefault": false,
+					"isDefault": true,
 					"name": "default",
 					"splitTestEnabled": false
 				},
@@ -18,7 +18,7 @@
 				"model": {
 					"condition": {},
 					"description": "",
-					"isDefault": true,
+					"isDefault": false,
 					"name": "saq_multi_language_pipeline",
 					"splitTestEnabled": false
 				},
