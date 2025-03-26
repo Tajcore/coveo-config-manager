@@ -1,0 +1,39 @@
+name: Push Configuration
+
+on:
+  push:
+    branches:
+      - qa
+      - prod
+
+jobs:
+  push-config:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Set environment variables
+      id: set-env
+      run: |
+        if [ "${{ github.ref }}" == "refs/heads/qa" ]; then
+          echo "TARGET_ORG_ID=${{ secrets.QA_TARGET_ORG_ID }}" >> $GITHUB_ENV
+          echo "TARGET_API_KEY=${{ secrets.QA_TARGET_API_KEY }}" >> $GITHUB_ENV
+        elif [ "${{ github.ref }}" == "refs/heads/prod" ]; then
+          echo "TARGET_ORG_ID=${{ secrets.PROD_TARGET_ORG_ID }}" >> $GITHUB_ENV
+          echo "TARGET_API_KEY=${{ secrets.PROD_TARGET_API_KEY }}" >> $GITHUB_ENV
+        fi
+
+    - name: Run push_config.py
+      run: python push_config.py
