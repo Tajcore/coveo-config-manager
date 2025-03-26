@@ -7,11 +7,10 @@
     "install-cli": "npm install",
     "pull": "python pull_config.py",
     "push": "python push_config.py",
-    "coveo": "npx coveo"
   },
   "author": "Your Name",
   "license": "MIT",
   "devDependencies": {
-    "@coveo/cli": "^2.0.0"
+    "@coveo/cli": "^3.2.11"
   }
 }
