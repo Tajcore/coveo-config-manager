@@ -6,7 +6,9 @@ It first authenticates with the Dev environment.
 import subprocess
 import sys
 import os
+import shutil
 from dotenv import load_dotenv
+from datetime import datetime
 
 load_dotenv()
 
@@ -14,9 +16,7 @@ load_dotenv()
 def run_command(command):
     """Run a shell command and print its output."""
     try:
-        # Ensure the command is only modified once
-        if not command[0].startswith("node_modules"):
-            command[0] = os.path.join("node_modules", ".bin", command[0])
+
         print("Running command:", " ".join(command))
         result = subprocess.run(" ".join(command), shell=True, check=True, capture_output=True, text=True)
         print(result.stdout)
@@ -39,7 +39,12 @@ def main():
         sys.exit(1)
 
     # Directly use the Coveo CLI from node_modules/.bin
-    cli_cmd = os.path.join("node_modules", ".bin", "coveo")
+    cli_cmd = os.path.join("node_modules", ".bin", "coveo") 
+    
+    # Delete Resources folder
+    if os.path.exists("resources"):
+        print("Deleting resources folder to ensure a clean pull")
+        shutil.rmtree("resources")
 
     # 1. Authenticate to the Dev environment
     auth_cmd = [cli_cmd, "auth:token", "-t", dev_api_key]
@@ -50,12 +55,6 @@ def main():
     pull_cmd = [cli_cmd, "org:resources:pull"]
     print("=== Pulling configuration from Dev ===")
     run_command(pull_cmd)
-
-    # At this point, the snapshot is saved (typically in a `resources/` folder)
-    # Now add and commit these changes to Git
-    print("=== Committing configuration snapshot to Git ===")
-    run_command(["git", "add", "resources/"])
-    # Check if there are changes to commit
 
 
 if __name__ == "__main__":
