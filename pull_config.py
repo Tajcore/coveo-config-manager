@@ -5,7 +5,8 @@ import shutil
 from dotenv import load_dotenv
 from datetime import datetime
 import logging
-#
+import argparse
+
 # --- Logging Setup ---
 logging.basicConfig(
     level=logging.DEBUG,
@@ -63,7 +64,22 @@ def run_command(command, input_data=None, timeout_seconds=120, env=None): # Adde
 
 
 def main():
+    # --- Argument Parsing ---
+    parser = argparse.ArgumentParser(description="Pull Coveo organization resources.")
+    parser.add_argument(
+        '-r', '--resource-types',
+        nargs='*', # 0 or more arguments
+        help='Specific resource types to pull (e.g., SOURCE FIELD MAPPING). If not provided, all resources are pulled.',
+        metavar='TYPE'
+    )
+    args = parser.parse_args()
+    # --- End Argument Parsing ---
+
     logging.info("Script execution started.")
+    if args.resource_types:
+        logging.info(f"Requested resource types: {', '.join(args.resource_types)}")
+    else:
+        logging.info("No specific resource types requested, pulling all resources.")
 
     dev_org_id = os.getenv("DEV_ORG_ID")
     dev_api_key = os.getenv("DEV_API_KEY")
@@ -143,6 +159,12 @@ def main():
         "org:resources:pull",
         "-o", dev_org_id # Keep this unless relying purely on COVEO_ORG_ID env var
     ]
+
+    # Conditionally add resource types
+    if args.resource_types:
+        pull_cmd.append("-r")
+        pull_cmd.extend(args.resource_types) # Add all specified types
+
     logging.info("=== Pulling configuration from Dev ===")
     # If using Env Vars (Option 2), pass the modified environment:
     # run_command(pull_cmd, env=coveo_env)
