@@ -1,0 +1,26 @@
+{
+  "prod": {
+    "sources": {
+      "saq_products_en": {
+        "source_id": "prod_abc123",
+        "url": "https://prod.saq.com/sitemap.xml"
+      }
+    }
+  },
+  "qa": {
+    "sources": {
+      "saq_products_en": {
+        "source_id": "qa_def456",
+        "url": "https://qa.saq.com/sitemap.xml"
+      }
+    }
+  },
+  "dev": {
+    "sources": {
+      "saq_products_en": {
+        "source_id": "dev_ghi789",
+        "url": "https://dev.saq.com/sitemap.xml"
+      }
+    }
+  }
+}

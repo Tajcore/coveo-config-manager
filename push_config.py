@@ -5,6 +5,7 @@ import shutil # Keep shutil in case needed later, though not used currently
 from dotenv import load_dotenv
 from datetime import datetime
 import logging
+import json
 
 # --- Logging Setup ---
 # Copied directly from pull_config.py
@@ -78,6 +79,40 @@ def run_command(command, input_data=None, timeout_seconds=120, env=None):
         sys.exit(1)
     except Exception as e: # Catch other potential errors
         logging.error("An unexpected error occurred: %s", e)
+        sys.exit(1)
+
+
+def update_source_url(environment):
+    """Update source URLs based on the target environment."""
+    try:
+        with open('env_config.json') as f:
+            env_config = json.load(f)
+        
+        if environment not in env_config:
+            logging.error(f"No configuration found for environment: {environment}")
+            sys.exit(1)
+        
+        environment_config = env_config[environment]
+        resources_path = "resources/SOURCE.json"
+        
+        with open(resources_path, 'r+') as f:
+            source_data = json.load(f)
+            for source in source_data['resources']['SOURCE']:
+                source_name = source['model']['name']
+                
+                if source_name in environment_config['sources']:
+                    # Update the startingAddresses with the environment-specific URL
+                    source['model']['configuration']['startingAddresses'] = [
+                        environment_config['sources'][source_name]['url']
+                    ]
+                    logging.info(f"Updated URL for source: {source_name}")
+            
+            # Write changes back to the file
+            f.seek(0)
+            json.dump(source_data, f, indent=2)
+            f.truncate()
+    except Exception as e:
+        logging.error(f"Failed to update source URLs: {str(e)}")
         sys.exit(1)
 
 
@@ -164,4 +199,10 @@ def main():
 
 
 if __name__ == "__main__":
+    # Get target environment from CI/CD
+    target_environment = os.getenv("ENVIRONMENT", "prod").lower()
+    
+    # Update sources before push
+    update_source_url(target_environment)
+    
     main()
