@@ -5,7 +5,7 @@ FROM node:18-slim
 # Running as root for installations
 USER root
 RUN apt-get update && \
-    apt-get install -y python3 python3-pip git && \
+    apt-get install -y python3 python3-pip python3-venv git && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 # Switch back to the non-root node user provided by the base image
