@@ -38,36 +38,38 @@ pipeline {
             }
         }
 
-        stage('Install Dependencies') {
-            steps {
-                sh 'echo "Installing Python dependencies..."'
-                sh 'pip3 install --no-cache-dir -r requirements.txt'
+    stage('Install Dependencies') {
+        steps {
+            sh 'echo "Creating Python virtual environment..."'
+            // Create a virtual environment named '.venv' in the workspace
+            sh 'python3 -m venv .venv'
 
-                sh 'echo "Installing Node.js dependencies..."'
-                // Use npm ci for cleaner/faster installs in CI environments
-                sh 'npm ci --omit=dev'
-            }
+            sh 'echo "Installing Python dependencies into venv..."'
+            // Use the pip from the virtual environment to install packages
+            sh '.venv/bin/pip install --no-cache-dir -r requirements.txt' // Changed command
+
+            sh 'echo "Installing Node.js dependencies..."'
+            sh 'npm ci --omit=dev'
         }
+    }
 
-        stage('Push Configuration') {
-            steps {
-                withCredentials([string(credentialsId: env.CREDENTIALS_ID, variable: 'TARGET_API_KEY')]) {
-                    script {
-                        echo "Running push_config.py for environment: ${env.TARGET_ENV}"
-                        echo "Using ORG_ID: ${env.TARGET_ORG_ID}" // Org ID is safe to print
-                        echo "API Key is set (value will be masked in logs)"
-
-                        // Execute the python script, making env vars available
-                        // Includes PATH modification for node_modules/.bin if needed by push_config.py
-                        sh '''
-                           export PATH=$(pwd)/node_modules/.bin:$PATH
-                           echo "Executing python script..."
-                           python3 push_config.py
-                        '''
-                    }
-                }
-            }
-        }
+stage('Push Configuration') {
+     steps {
+         withCredentials([string(credentialsId: env.CREDENTIALS_ID, variable: 'TARGET_API_KEY')]) {
+             script {
+                 echo "Running push_config.py for environment: ${env.TARGET_ENV}"
+                 echo "Using ORG_ID: ${env.TARGET_ORG_ID}"
+                 echo "API Key is set (value will be masked in logs)"
+                 sh '''
+                    export PATH=$(pwd)/node_modules/.bin:$PATH
+                    echo "Executing python script using venv..."
+                    # Use the python from the venv
+                    .venv/bin/python push_config.py
+                 ''' // Changed command
+             }
+         }
+     }
+ }
     } // End stages
 
     post {
